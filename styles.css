@@ -1,0 +1,52 @@
+#container{
+  max-width: 30%;
+  margin: auto;
+  margin-top: 2%;
+  border: 1px solid rgba(187, 175, 175, 0.794);
+  border-radius: 10px;
+  border-bottom: none;
+
+
+}
+img{
+  max-width: 100%;
+}
+
+h4 ,h1,p,#scoreContainer {
+  padding: 1% 5%;
+}
+#buttonContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 3%;
+  column-gap: 5px;
+  
+}
+#player1 {
+ 
+  padding: 9%;
+  background-color:rgb(16, 169, 105);
+  color: white;
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+}
+
+#player2{
+ 
+  padding: 9%;
+ background-color: rgb(54, 189, 198);
+ color: white;
+ text-align: center;
+ border: 0;
+ border-radius: 10px;
+}
+#reset{
+ 
+  padding: 9%;
+  background-color: rgb(211, 58, 70);
+  color: white;
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+}
